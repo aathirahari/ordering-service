@@ -43,6 +43,8 @@ public class OrderServiceTest {
 
 	@InjectMocks
 	private OrderServiceImpl orderService;
+        @Mock 
+	private KafkaSender kafkaSender;
 
 	@Mock
 	private OrderRepository orderRepository;
