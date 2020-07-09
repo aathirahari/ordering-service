@@ -23,6 +23,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestTemplate;
 
+import com.eatza.order.service.orderservice.KafkaSender;
 import com.eatza.order.dto.ItemFetchDto;
 import com.eatza.order.dto.MenuFetchDto;
 import com.eatza.order.dto.OrderRequestDto;
